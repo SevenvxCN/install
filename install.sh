@@ -121,7 +121,7 @@ if [ -d "$HOME/SillyTavern/.git" ]; then
     echo -e "${YELLOW}${BOLD}>> 步骤 5/8 跳过：仓库已存在。${NC}"
 else
     rm -rf "$HOME/SillyTavern"
-    if git clone https://github.com/SevenvxCN/lvdou "$HOME/SillyTavern"; then
+    if git clone https://github.com/SevenvxCN/nini "$HOME/SillyTavern"; then
         echo -e "${GREEN}${BOLD}>> 步骤 5/8 完成：SillyTavern 仓库已克隆。${NC}"
     else
         echo -e "${RED}${BOLD}>> 仓库克隆失败，请检查网络连接。${NC}"
